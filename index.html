@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> 🎓 TuteDude | Learn. Build. Grow</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+          <!-- Intro section of the website -->
+  <header class="site-header">
+    <h1>🎓 TuteDude</h1>
+    <p>Learn. Build. Grow — Your Gateway to Knowledge</p>
+  </header>
+
+  <!-- ================= NAVIGATION ================= -->
+            <!-- Primary navigation menu -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#menu">Courses</a>
+    <a href="#trivia">Trivia</a>
+    <a href="#extras">Extras</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ================= MAIN CONTENT ================= -->
+  
+<main>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero">
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=900&q=80"
+          alt="Students collaborating at a table with laptops"
+          loading="lazy"
+        />
+        <figcaption>TuteDude — Empowering learners everywhere</figcaption>
+      </figure>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about">
+      <article>
+        <h2>About TuteDude</h2>
+
+        <p>
+          <strong>TuteDude</strong> was founded in
+          <time datetime="2021">2021</time> with one goal —
+          making quality education accessible to everyone.
+        </p>
+
+        <p>
+          We teach
+          <abbr title="HyperText Markup Language">HTML</abbr>,
+          CSS, JavaScript, Python and more using hands-on projects
+          so you don’t just learn — you <em>build</em>.
+        </p>
+
+        <blockquote cite="https://tutedude.com">
+          “Education is the most powerful weapon which you can use to change the world.”
+          <footer>— Nelson Mandela</footer>
+        </blockquote>
+      </article>
+    </section>
+
+    <!-- ========== COURSE MENU ========== -->
+    <section id="menu">
+      <h2>Course Menu</h2>
+
+      <table>
+        <caption>Popular Courses & Pricing</caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Course</th>
+            <th scope="col">What You'll Learn</th>
+            <th scope="col">Basic</th>
+            <th scope="col">Pro</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>HTML Basics</td>
+            <td>Semantic tags, forms & tables</td>
+            <td>₹199</td>
+            <td>₹499</td>
+          </tr>
+          <tr>
+            <td>CSS Mastery</td>
+            <td>Flexbox, Grid & animations</td>
+            <td>₹249</td>
+            <td>₹599</td>
+          </tr>
+          <tr>
+            <td>JavaScript Pro</td>
+            <td>DOM, ES6+, async code</td>
+            <td>₹349</td>
+            <td>₹799</td>
+          </tr>
+          <tr>
+            <td>React Crash Course</td>
+            <td>Components & hooks</td>
+            <td>₹399</td>
+            <td>₹899</td>
+          </tr>
+          <tr>
+            <td>Python Fundamentals</td>
+            <td>Loops, functions, basics</td>
+            <td>₹299</td>
+            <td>₹699</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="2">All-in-One Bundle</td>
+            <td>₹1,199</td>
+            <td>₹2,999</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- ========== TRIVIA SECTION ========== -->
+    <section id="trivia">
+      <h2>Fun Trivia</h2>
+
+      <h3>Why Learn Web Development?</h3>
+      <ol>
+        <li>Create your own websites</li>
+        <li>Work remotely</li>
+        <li>High-paying jobs</li>
+        <li>Creative freedom</li>
+      </ol>
+
+      <h3>Quick Facts</h3>
+      <ul>
+        <li>First website launched in <time datetime="1991-08-06">1991</time></li>
+        <li>JavaScript built in just 10 days</li>
+        <li>Over 1.9 billion websites exist</li>
+      </ul>
+
+      <details>
+        <summary>🤔 Did you know?</summary>
+        <p>
+          “TuteDude” blends <em>Tutorial</em> + <em>Dude</em>
+          — learning made friendly.
+        </p>
+      </details>
+    </section>
+
+    <!-- ========== MEDIA EXTRAS ========== -->
+    <section id="extras">
+      <h2>Extras</h2>
+
+      <article>
+        <h3>🎵 Sample Audio</h3>
+        <audio controls>
+          <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" />
+        </audio>
+      </article>
+
+      <article>
+        <h3>🎥 Sample Video</h3>
+        <video controls preload="metadata">
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" />
+        </video>
+      </article>
+    </section>
+
+    <!-- ========== FEEDBACK FORM ========== -->
+    <section id="feedback">
+      <h2>Feedback</h2>
+
+      <form>
+        <fieldset>
+          <legend>We'd love your thoughts</legend>
+
+          <label>
+            Name:
+            <input type="text" required />
+          </label>
+
+          <label>
+            Email:
+            <input type="email" required />
+          </label>
+
+          <label>
+            Message:
+            <textarea rows="4" required></textarea>
+          </label>
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+
+</main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer id="contact" class="site-footer">
+    <p>📧 <a href="mailto:hello@tutedude.com">hello@tutedude.com</a></p>
+    <small>&copy; 2023 TuteDude. All rights reserved.</small>
+    <p><a href="#">Back to top ↑</a></p>
+  </footer>
+
+</body>
+</html>
